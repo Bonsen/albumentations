@@ -33,9 +33,9 @@ setup(
     long_description_content_type='text/markdown',
     author='Buslaev Alexander, Alexander Parinov, Vladimir Iglovikov',
     license='MIT',
-    url='https://github.com/albu/albumentations',
+    url='https://github.com/Bonsen/albumentations',
     packages=find_packages(exclude=['tests']),
-    install_requires=['numpy>=1.11.1', 'scipy', 'opencv-python', 'imgaug>=0.2.5'],
+    install_requires=['numpy>=1.11.1', 'scipy', 'imgaug>=0.2.5'],
     extras_require={'tests': get_test_requirements()},
     classifiers=[
         'Development Status :: 4 - Beta',
